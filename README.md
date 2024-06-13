@@ -1,9 +1,9 @@
-# Scale-Balanced-Grasp
+# Generalizing-Grasp
 
 **Generalizing 6-DoF Grasp Detection via Domain Prior Knowledge**<br>
 
 _Haoxiang Ma, Modishi, Boyang Gao, Di Huang_<br>
-In CoRL'2022
+In CVPR'2024
 #### [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_Generalizing_6-DoF_Grasp_Detection_via_Domain_Prior_Knowledge_CVPR_2024_paper.pdf) [Video](https://www.youtube.com/watch?v=RzTXFcZURiU&t=14s)
 
 ## Introduction
@@ -15,7 +15,7 @@ The code is based on [GraspNet-baseline](https://github.com/graspnet/graspnet-ba
 ## Environments
 - Anaconda3
 - Python == 3.7.9
-- PyTorch == 1.6.0
+- PyTorch >= 1.8.0
 - Open3D >= 0.8
 
 ## Installation
