@@ -1,0 +1,2 @@
+#! /bin/sh
+CUDA_VISIBLE_DEVICES=0 python optimization.py --save_dir logs/dump_phy --dump_dir logs/dump_csjo --c_checkpoint_path logs/log_contactnet/checkpoint.tar --s_checkpoint_path logs/log_scorenet/checkpoint.tar --camera realsense --dataset_root /home/LAB/r-yanghongyu/data/graspnet
