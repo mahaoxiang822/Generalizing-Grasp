@@ -59,6 +59,12 @@ python TSDFreconstruction_dataset.py
 ```
 Or you can download the pre-generated data from [Google Drive](https://drive.google.com/file/d/12YODD0ZUu6XTudU1fZBhVtAmIpMZk8xQ/view?usp=sharing) and unzip it under the dataset root:
 
+#### Object SDF generation
+You can generate object SDF by running:
+```bash
+pip install mesh-to-sdf
+python dataset/grid_sample.py
+```
 
 #### Tolerance Label Generation(Follow graspnet-baseline)
 Tolerance labels are not included in the original dataset, and need additional generation. Make sure you have downloaded the orginal dataset from [GraspNet](https://graspnet.net/). The generation code is in [dataset/generate_tolerance_label.py](../Scale-Balanced-Grasp/dataset/generate_tolerance_label.py). You can simply generate tolerance label by running the script: (`--dataset_root` and `--num_workers` should be specified according to your settings)
